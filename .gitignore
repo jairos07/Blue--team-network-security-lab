@@ -1,0 +1,13 @@
+# Environment variables — never commit credentials
+.env
+
+# OS / editor artifacts
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.log
