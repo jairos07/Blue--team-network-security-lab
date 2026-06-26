@@ -30,7 +30,7 @@ Everything runs on Proxmox VE using isolated virtual machines interconnected thr
                     │  ┌──────────────┐  ┌───────────────────┐  ┌──────────────┐ │
                     │  │   pfSense    │  │   ubuntu-server   │  │    wazuh     │ │
                     │  │   Firewall   │  │   DHCP + DNS      │  │    SIEM      │ │
-                    │  │  LAN: .100.1 │  │   192.168.100.1   │  │ 192.168.     │ │
+                    │  │              │  │   192.168.100.1   │  │ 192.168.     │ │
                     │  │  WAN: .100.2 │  │   isc-dhcp-server │  │   100.113    │ │
                     │  │              │  │   BIND9 + Agent   │  │   Docker     │ │
                     │  └──────────────┘  └───────────────────┘  └──────────────┘ │
